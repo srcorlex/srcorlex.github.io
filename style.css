@@ -234,12 +234,12 @@ button {
   justify-content: space-around;
   margin: 5% 0%; */
 
-.designprocess p {
+/* .designprocess p {
   font-size: 15px;
   font-weight: 100;
   width: 50%;
   height: 80%;
-}
+} */
 
 .designprocess img {
   width: 40%;
@@ -250,4 +250,15 @@ button {
 .lc {
   width: 40%;
   height: 40%;
+}
+
+.pa {
+  width: 60%;
+  height: 60%;
+}
+
+.pa p {
+  font-weight: 100;
+  width: 50%;
+  height: 80%;
 }
