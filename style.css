@@ -222,7 +222,7 @@ button {
 }
 
 .designprocess {
-  width: 100%;
+  width: 70%;
   height: 500px;
   display: flex;
   flex-direction: row;
@@ -240,4 +240,10 @@ button {
 .designprocess img {
   width: 40%;
   height: 50%;
+}
+
+.bc,
+.lc {
+  width: 40%;
+  height: 40%;
 }
