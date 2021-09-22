@@ -234,9 +234,10 @@ button {
   font-weight: 100;
   width: 20%;
   height: 80%;
+  margin: 5% 0%;
 }
 
 .designprocess img {
-  width: 490px;
-  height: 570px;
+  width: 290px;
+  height: 370px;
 }
