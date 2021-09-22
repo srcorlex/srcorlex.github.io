@@ -225,6 +225,10 @@ button {
   text-align: center;
   margin: 10% 0% 5% 0%;
   font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 /* width: 80%;
@@ -261,4 +265,5 @@ button {
   font-weight: 100;
   width: 50%;
   height: 80%;
+  margin: 10%;
 }
