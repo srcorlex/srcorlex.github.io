@@ -15,6 +15,15 @@ body {
   justify-content: center;
   flex-direction: column;
   margin-top: 2%;
+  margin-left: 0%;
+}
+
+.portfolio {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
 }
 
 img {
@@ -34,6 +43,82 @@ button {
   background: rgb(0, 0, 0, 0);
   border: none;
   cursor: pointer;
+}
+
+.galeriailustraciones {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.part1 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.part1 img {
+  cursor: pointer;
+  width: 33%;
+  height: 100%;
+  margin: 0.4%;
+  object-fit: cover;
+}
+
+.part2 {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.part2 img {
+  cursor: pointer;
+  width: 33%;
+  height: 100%;
+  margin: 0.4%;
+  object-fit: cover;
+}
+
+.galeriapersonajes {
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.part3 {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
+}
+
+.part3 img {
+  cursor: pointer;
+  width: 33%;
+  height: 100%;
+  margin: 0.4%;
+  object-fit: cover;
+}
+
+.part4 {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.part4 img {
+  cursor: pointer;
+  width: 33%;
+  height: 100%;
+  margin: 0.4%;
+  object-fit: cover;
 }
 
 .partearriba {
@@ -56,15 +141,20 @@ button {
   margin: 1% 0% 5% 0%;
 }
 
-.logo {
+/* .logo {
   font-size: 25px;
   margin-bottom: 3%;
   text-transform: uppercase;
+} */
+
+.logo1 {
+  width: 15%;
+  height: 15%;
 }
 
 .slogan {
   font-size: 14px;
-  margin-bottom: 15%;
+  margin: 0% 0% 5% 0%;
 }
 
 .a {
@@ -77,13 +167,14 @@ button {
   border-radius: 50px;
   justify-content: center;
   align-items: center;
+  margin: 4% 0% 0% 0%;
 }
 
 .botones {
   width: 25%;
   display: flex;
   justify-content: space-between;
-  margin-left: 5%;
+  margin-left: 0%;
 }
 
 .contactoyredes {
@@ -117,14 +208,6 @@ button {
   text-align: center;
   margin: 10% 0% 5% 0%;
   font-size: 20px;
-}
-
-.ancho {
-  width: 370px;
-}
-
-.largo {
-  height: 370px;
 }
 
 .biografia {
@@ -221,7 +304,7 @@ button {
   height: 100px;
 }
 
-.designprocess {
+/* .designprocess {
   text-align: center;
   margin: 10% 0% 5% 0%;
   font-size: 20px;
@@ -230,8 +313,9 @@ button {
   align-items: center;
   justify-content: center;
 }
+*/
 
-/* width: 80%;
+/* /* width: 80%;
   height: 500px;
   display: flex;
   flex-direction: row;
@@ -245,10 +329,10 @@ button {
   height: 80%;
 } */
 
-.designprocess img {
+/*.designprocess img {
   width: 40%;
   height: 50%;
-}
+} */
 
 .bc,
 .lc {
@@ -268,4 +352,66 @@ button {
   width: 50%;
   height: 50%;
   margin-left: 25%;
+}
+
+.container-slider {
+  height: 90%;
+  max-width: 900px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  margin: 15% auto;
+}
+
+.txt-slider {
+  font-size: 20px;
+  margin-left: 40%;
+  margin-bottom: 5%;
+}
+
+.slider {
+  display: flex;
+  width: 400%;
+  height: 400px;
+  margin-left: -100%;
+}
+
+.slider__section {
+  width: 100%;
+}
+
+.slider__img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider__btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  color: #ffb23f;
+  background: rgb(0, 0, 0, 0);
+  top: 58%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 50%;
+}
+
+.slider__btn:hover {
+  background: rgb(0, 0, 0, 0.5);
+}
+
+/* .slider__btn--left {
+} */
+
+.slider__btn--right {
+  right: 10px;
 }

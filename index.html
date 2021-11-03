@@ -13,6 +13,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
+    <link rel="shortcut icon" href="imgs/logo2.png" type="image/x-icon" class="a_icon">
     <title>Corlex web</title>
 </head>
 <body>
@@ -20,19 +21,20 @@
         <header>
             <div class="partearriba">
                             <div class="nombreslogan">
-                                <p class="logo">Corlex</p>
-                                <p class="slogan">Ilustrador y dibujante</p>
+                                <!-- <p class="logo">Corlex</p> -->
+                                <img src="imgs/logo2.png" class="logo1" alt="logo corlex web"/>
+                                <p class="slogan">Ilustrador and Cartoonist</p>
                             </div>
-                            <a class="a" href="mailto:corlenblacky@gmail.com">contactar</a>
+                            <a class="a" href="mailto:corlenclaude1@gmail.com">Contact</a>
             </div>
             <div class="parteabajo">
                 <div class="botones">
-                    <button id="portfolio">portfolio</button>
-                    <button id="biografia">biografia</button>
-                    <button id="comisiones">tabla de comisiones</button>
+                    <button id="portfolio">Portfolio</button>
+                    <button id="biografia">Biography</button>
+                    <button id="comisiones">Commissions</button>
                 </div>
                 <div class="contactoyredes">
-                                    <a href="mailto:corlenblacky@gmal.com">corlenblacky@gmail.com</a>
+                                    <a href="mailto:corlenclaude1@gmal.com">corlenclaude1@gmail.com</a>
                                     <div class="redes">
                                         <a href="https://www.instagram.com/sr_corlex/"><i class="fab fa-instagram"></i></a>
                                     </div>
@@ -42,17 +44,17 @@
         <div class="portfolio">
             <p class="titulo">portfolio</p>
             <div class="ilustraciones">
-                <p>Ilustraciones</p>
+                <p>Ilustrations</p>
                 <div class="galeriailustraciones">
                     <div class="part1">
                         <img src="imgs/lost guy 2.jpg" alt="lost guy ilustracion">
-                        <img class="ancho" src="imgs/yuvyu rosa 2.jpg" alt="dibujo cabeza de televisor">
-                        <img class="largo" src="imgs/terminado1.jpg" alt="dibujo de estatua">
+                        <img src="imgs/yuvyu rosa 2.jpg" style="height: 290px;" alt="dibujo cabeza de televisor">
+                        <img src="imgs/terminado1.jpg" style="height: 290px;" alt="dibujo de estatua">
                     </div>
                     <div class="part2">
                         <img src="imgs/Ilustracion.jpg" alt="dibujo chica cabello de nubes rosa">
                         <img src="imgs/satanas terminado 2.jpg" alt="dibujo satanas rojo guapo">
-                        <img class="largo" src="imgs/practica negro mas cool.jpg" alt="dibujo negro espacial">
+                        <img src="imgs/practica negro mas cool.jpg" style="height: 290px;" alt="dibujo negro espacial">
                     </div>
                 </div>
         </div>
@@ -60,8 +62,9 @@
                     <p>Character design</p>
                     <div class="galeriapersonajes">
                         <div class="part3">
-                            <img src="imgs/ficha 2.jpg" style="width: 400px; height: 200px;" alt="lost guy ilustracion">
-                            <img src="imgs/ficha de Hota a color re hecho.jpg" style="width: 500px;" alt="dibujo cabeza de televisor">
+                            <img src="imgs/ficha 2.jpg" style="height: 290px;" alt="lost guy ilustracion">
+                            <img src="imgs/ficha de Hota a color re hecho.jpg" style="height: 290px;" alt="dibujo cabeza de televisor">
+                            <img src="imgs/01.jpg" alt="dibujo cabeza de televisor">
                         </div>
                         <div class="part4">
                             <img src="imgs/jacob winchester2.jpg" alt="dibujo chica cabello de nubes rosa">
@@ -70,7 +73,7 @@
                         </div>
                     </div>
 
-
+<!-- 
                     <div class="designprocess">
                         <p>Design Process</p>
 
@@ -101,53 +104,73 @@
                                 <h3>Final</h3>
                                 <p class="txtlineart">this is the result of this design.</p>
                         </div>
-                    </div>
+                    </div> -->
         </div>
+                    <div class="container-slider">
+                    <p class="txt-slider">Design Process</p>
+                        <div class="slider" id="slider">
+                            <div class="slider__section">
+                                <img src="imgs/1,2.png" alt="cerberus poppy sketch" class="slider__img">
+                            </div>
+                            <div class="slider__section">
+                                <img src="imgs/2.png" alt="cerberus poppy lineart vector"
+                                    class="slider__img">
+                            </div>
+                            <div class="slider__section">
+                                <img src="imgs/3.png" alt="cerberus poppy vector" class="slider__img">
+                            </div>
+                            <div class="slider__section">
+                                <img src="imgs/4.png" alt="cerberus poppy vector" class="slider__img">
+                            </div>
+                        </div>
+                        <div class="slider__btn slider__btn--right" id="btn-right"><i class="fas fa-chevron-right"></i></div>
+                        <div class="slider__btn slider__btn--left" id="btn-left"><i class="fas fa-chevron-left"></i></div>
+                    </div>
         </div>
         <div class="biografia">
             <div class="texto">
-                <p class="bio">Biografia</p>
-                <p>Hola, soy Corlen Mohamed Claude, un ilustrador y dibujante semi-profecional, tengo habilidades en la ilustracion suelta,
-                de comic o manga, tengo mas de 10 años de experiencia en el dibujo, si neceitas comisiones, ilustraciones o algun
-                proyecto, solo contactame.</p>
+                <p class="bio">Biography</p>
+                <p>Hello, my name is Corlen Mohamed Claude, I am a professional illustrator, I have skills in fantasy, comic or manga
+                illustration, and more than 10 years of experience in drawing, if you need commissions, illustrations or any project,
+                just contact me.</p>
             </div>
             <div class="imagenes">
                 <img class="nv" src="imgs/nino volador.png" alt="niño en un cohete de caja">
             </div>
         </div>
         <div class="tablacomisiones">
-            <p class="titulo2">Tabla de comisiones</p>
-            <p class="postitulo">las condiciones son negociables.</p>
+            <p class="titulo2">Commissions</p>
+            <p class="postitulo">Conditions are negotiable.</p>
 
             <table class="tabla">
                 <tr class="precios">
                     <td style="margin-left: -4%;margin-right: 5%;"><p>$15</p></td>
-                    <td><p>$21</p></td>
-                    <td><p>$28</p></td>
+                    <td><p>$20</p></td>
+                    <td><p>$30</p></td>
                 </tr>
                 <tr class="condiciones">
                     <td><p>Lineart</p>
                         <p>
-                        Sin color, un personaje, 2$ extra por cada personaje extra, sin fondo
-                        3$ extra para fondo simple, 4$ para uno intermedio y
-                        5$ para un fondo complejo.</p>
+                        No color, one character, $ 2 extra for each extra character, no background
+                        $ 3 extra for a simple fund, $ 4 for an intermediate fund and
+                        $ 5 for a complex fund.</p>
                     </td>
 
-                    <td><p>A color</p><p>A color, un personaje basico, 
-                    $2 extra por cada personaje extra, fondo basico,
-                    $4 extra por fondo detallado y $5 para
-                    uno complejo.</p></td>
+                    <td><p>Color</p><p>Color, a basic character,
+                    $ 2 extra for each extra character, basic background,
+                    $ 4 extra for detailed fund and $ 5 for
+                    a complex background.</p></td>
 
-                    <td><p>Detallado</p><p>A color, con sombras, luces, y
-                    mas detalles, un personaje, $3 extra por cada personaje extra, 
-                    fondo con luces y sombras.</p></td>
+                    <td><p>Detailed</p><p>Color, with shadows, lights, and
+                    more details, one character, $ 3 extra for each extra character,
+                    background with lights and shadows.</p></td>
 
                 </tr>
 
                 <tr class="hacerpedidos">
-                    <td style="margin-left: -3%;margin-right: 4%;"><a href="mailto:corlenblacky@gmail.com">hacer pedido</a></td>
-                    <td><a href="mailto:corlenblacky@gmail.com">hacer pedido</a></td>
-                    <td><a href="mailto:corlenblacky@gmail.com">hacer pedido</a></td>
+                    <td style="margin-left: -3%;margin-right: 4%;"><a href="mailto:corlenclaude1@gmail.com">Make an order</a></td>
+                    <td><a href="mailto:corlenclaude1@gmail.com">Make an order</a></td>
+                    <td><a href="mailto:corlenclaude1@gmail.com">Make an order</a></td>
                 </tr>
             </table>
         </div>
