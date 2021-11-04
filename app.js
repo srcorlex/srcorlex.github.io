@@ -83,7 +83,40 @@ window.onload = function () {
         next();
     }, 7000);
 
+    let imagen = document.getElementsByClassName("imagen");
+
+    // imagen[0].addEventListener("click", function () {
+    //     if (imagen[0].style.transform = ("scale(1)")) {
+    //         imagen[0].style.transform = ("scale(2)");
+    //     }
+    //     else if (imagen[0].style.transform = ("scale(2)")) {
+    //         imagen[0].style.transform = ("scale(1)");
+    //     }
+    //     else {
+    //         alert("no")
+    //     };
+    // });
+
+    // imagen[0].style.transition = ("all 0.5s")
+    // imagen[0].addEventListener("click", function() {
+        // imagen[0].style.transform = ("scale(2)");
+    //     imagen[0].style.marginLeft = "30%";
+    //     // imagen[0].style.position = "absolute";
+
+    // })
+
+    // imagen[1].addEventListener("click", function() {
+    //     alert("hola");
+    // })
+
+    // imagen[2].addEventListener("click", function() {
+    //     alert("hola");
+    // })
+
+    // let body = document.getElementById("body").addEventListener("click", function() {
+    //     imagen[0,1].style.transform = ("scale(1)");
+    //     imagen[0,1].style.marginLeft = "0%";
+    // })
+
+
 };
-
-
-
