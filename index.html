@@ -3,49 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@100;300&display=swap"
-        rel="stylesheet">
-    <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
-        
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
+    
     <script src="https://kit.fontawesome.com/7dc389b0cb.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
-    <link rel="shortcut icon" href="imgs/logo2.png" type="image/x-icon" class="a_icon">
+    <link rel="shortcut icon" href="imgs/logo personal 1.png" type="image/x-icon" class="a_icon">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <title>Corlex web</title>
 </head>
 <body id="body">
     <div class="container">
-        <header>
+        <header class="header">
             <div class="partearriba">
                             <div class="nombreslogan">
                                 <!-- <p class="logo">Corlex</p> -->
-                                <img src="imgs/logo2.png" class="logo1" alt="logo corlex web"/>
-                                <p class="slogan">Ilustrador and Cartoonist</p>
+                                <img src="imgs/logo personal 2.png" class="logo1" alt="logo corlex web"/>
+                                <!-- <p class="slogan">Ilustrador and Cartoonist</p>?\ -->
                             </div>
-                            <a class="a" href="mailto:corlenclaude1@gmail.com">Contact</a>
+                            <!-- <a class="a" href="mailto:corlenclaude1@gmail.com">Contact</a> -->
             </div>
             <div class="parteabajo">
                 <div class="botones">
                     <button id="portfolio">Portfolio</button>
                     <button id="dp">Design process</button>
-                    <button id="biografia">Biography</button>
+                    <button id="biografia">About</button>
                     <button id="comisiones">Commissions</button>
                 </div>
-                <div class="contactoyredes">
-                                    <a href="mailto:corlenclaude1@gmal.com">corlenclaude1@gmail.com</a>
-                                    <div class="redes">
-                                        <a href="https://www.instagram.com/sr_corlex/" target="blank"><i class="fab fa-instagram"></i></a>
-                                    </div>
+                <div class="contactoyredes">    
+                    <a href="https://www.instagram.com/sr_corlex/" target="blank"><i class="fab fa-instagram"></i></a>
                 </div>
             </div>
         </header>
+
+        <div class="LandingPage">
+            <div class="graphics">
+                <div class="triangle1"></div>
+            </div>
+            <div class="landingContainer">
+                <div class="leftpart">
+                    <div class="nameTagline">
+                        <div class="name">
+                            <H1>Corlen Claude</H1>
+                            <h2>Mohamed</h2>
+                        </div>
+                        <div class="tagline">
+                            <p>Graphic and UI/UX designer</p>
+                        </div>
+                    </div>
+                    <div class="contact__div">
+                        <a class="contact__button" href="mailto:corlenclaude1@gmail.com">Contact</a>
+                    </div>
+                </div>
+                <div class="rightpart">
+                    <div class="resume">
+                        <p>Hello, my name is Corlen Mohamed Claude, I am a graphic and ui designer, if you need a design, illustration or project, just contact me.</p>
+                    </div>
+                    <div class="skills">
+                        <h3>WHAT I DO</h3>
+                        <div class="skill__container">
+                            <div class="ui">
+                                <p>UI/UX</p>
+                                <p>UI/UX</p>
+                                <p>UI/UX</p>
+                                <p>UI/UX</p>
+                            </div>
+                            <div class="game__art">
+                                <p>Game Art</p>
+                                <p>Game Art</p>
+                                <p>Game Art</p>
+                                <p>Game Art</p>
+                            </div>
+                            <div class="Illustrations">
+                                <p>Desing</p>
+                                <p>Desing</p>
+                                <p>Desing</p>
+                                <p>Desing</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
         <div class="portfolio">
-            <p class="titulo">portfolio</p>
+            <p class="titulo">My lastest proyects</p>
+            <p class="subtitulo">Every good designer has projects to show hes’s talent.</p>
             <div class="ilustraciones">
-                <p>Ilustrations</p>
+                
+                <div class="title__cont">
+                <!-- <p class="a1">Proyect</p><p>portfolio</p> -->
+                </div>
                 <div class="galeriailustraciones">
                     <div class="part1">
                         <img id="img" class="imagen" src="imgs/lost guy 2.jpg" style="height: 290px;" alt="lost guy ilustracion">
@@ -128,7 +180,7 @@
                         <div class="slider__btn slider__btn--left" id="btn-left"><i class="fas fa-chevron-left"></i></div>
                     </div>
         </div>
-        <div class="biografia">
+        <!-- <div class="biografia">
             <div class="texto">
                 <p class="bio">Biography</p>
                 <p>Hello, my name is Corlen Mohamed Claude, I am a professional illustrator, I have skills in fantasy, comic or manga
@@ -138,7 +190,7 @@
             <div class="imagenes">
                 <img class="nv" src="imgs/nino volador.png" alt="niño en un cohete de caja">
             </div>
-        </div>
+        </div> -->
         <div class="tablacomisiones">
             <p class="titulo2">Commissions</p>
             <p class="postitulo">Conditions are negotiable.</p>

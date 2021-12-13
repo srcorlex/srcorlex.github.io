@@ -95,6 +95,9 @@ window.onload = function () {
 
     // let imagen = document.getElementsByClassName("imagen");
 
+    gsap.from('.leftpart', { opacity: 0, duration: 2.5, x: -150, ease: 'expo.out'});
+    gsap.from('.rightpart', { opacity: 0, duration: 2, x: 50, delay: 1 });
+
 
 
 };

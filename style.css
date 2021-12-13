@@ -1,11 +1,11 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Baloo Tammudu 2", cursive;
 }
 
 body {
-  background: #1b1b1b;
+  background-color: #03070f;
 }
 
 .container {
@@ -142,24 +142,32 @@ button {
   object-fit: cover;
 }
 
+.header {
+  width: 80%;
+  height: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5% auto;
+}
+
 .partearriba {
   display: flex;
   flex-direction: row;
-  width: 1100px;
+  width: 45%;
   height: 35%;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1.5px #fff solid;
+  /* border-bottom: 1.5px #fff solid; */
 }
 
 .parteabajo {
   display: flex;
   flex-direction: row;
-  width: 1100px;
+  width: 50%;
   height: 35%;
-  justify-content: space-between;
   align-items: center;
-  margin: 1% 0% 5% 0%;
+  justify-content: space-between;
 }
 
 /* .logo {
@@ -169,13 +177,20 @@ button {
 } */
 
 .logo1 {
-  width: 17%;
-  height: 17%;
+  width: 25%;
+  height: 25%;
 }
 
 .slogan {
   font-size: 14px;
   margin: -2% 0% 5% 0%;
+}
+
+.landingContainer {
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: row;
 }
 
 .a {
@@ -192,36 +207,50 @@ button {
 }
 
 .botones {
-  width: 38%;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  margin-left: 0%;
+  transition: all 1s;
+}
+
+.botones button {
+  font-size: 15px;
+}
+
+.botones button:hover {
+  color: #1890ff;
+  border-bottom: solid 1px #1890ff;
 }
 
 .contactoyredes {
   width: 22%;
-  display: flex;
+  height: 100%;
+  display: block;
   flex-direction: row;
   justify-content: space-between;
+  margin-left: 5%;
 }
 
 .contactoyredes a {
-  color: #fff;
+  color: #1890ff;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 17px;
 }
 
 .titulo {
   color: #ffb23f;
-  font-size: 60px;
-  margin: 10% 0% 8% 0%;
-  text-align: center;
+  font-size: 25px;
   text-transform: uppercase;
+  margin-top: 10%;
+}
+
+.titulo,
+.subtitulo {
+  margin-left: 10%;
 }
 
 .ilustraciones p {
-  text-align: center;
-  margin: 5% 0%;
+  margin: 0% 10%;
   font-size: 20px;
 }
 
@@ -435,4 +464,148 @@ button {
 
 .slider__btn--right {
   right: 10px;
+}
+
+.landingContainer {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 2% 10%;
+}
+
+.leftpart {
+  width: 45%;
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.name H1,
+h2 {
+  font-size: 40px;
+  width: 45%;
+  line-height: 150%;
+}
+
+.name H1 {
+  color: #1890ff;
+  font-weight: 900;
+}
+
+.name h2 {
+  font-weight: lighter;
+}
+
+.rightpart {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 45%;
+  height: 45vh;
+}
+
+.resume {
+  width: 100%;
+  display: flex;
+  /* justify-content: flex-end; */
+}
+
+.resume p {
+  width: 85%;
+  line-height: 40px;
+  font-size: 17px;
+}
+
+.tagline p {
+  font-size: 20px;
+}
+
+.contact__button {
+  display: flex;
+  width: 150px;
+  height: 50px;
+  background: rgb(0, 0, 0, 0);
+  border: solid 1px #ffb23f;
+  border-radius: 5px;
+  color: #ffb23f;
+  text-decoration: none;
+  font-size: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills {
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.skill__container {
+  width: 90%;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+.skill__container div {
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.2),
+    rgba(255, 255, 255, 0)
+  );
+  border: solid 1px transparent;
+  border-image: linear-gradient(
+    145deg,
+    rgba(255, 255, 255, 0.3),
+    rgba(121, 0, 172, 0.25)
+  );
+  border-image-slice: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: lighter;
+  filter: drop-shadow(0px 4px 25px rgb(0, 0, 0, 0.2));
+}
+
+.skills h3 {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.skills p {
+  background: linear-gradient(165deg, #fff, rgb(24, 144, 255, 0.5));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: absolute;
+}
+
+.title__cont {
+  width: 3%;
+  display: flex;
+  margin: 5% 10%;
+}
+
+.title__cont p {
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+.a1 {
+  color: #1890ff;
+  font-weight: bolder;
 }
