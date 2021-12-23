@@ -46,7 +46,7 @@ button {
 }
 
 .galeriailustraciones {
-  width: 70%;
+  width: 80%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -58,41 +58,13 @@ button {
 }
 
 .galeriailustraciones img:hover {
-  transform: scale(2);
-  width: auto;
-  /* object-fit: ; */
+  transform: scale(1.1);
 }
 
-.part1 {
+.chantale__link {
   width: 100%;
-  height: 50%;
-  display: flex;
-  flex-direction: row;
-}
-
-.part1 img {
-  cursor: pointer;
-  width: 33%;
   height: 100%;
-  margin: 0.4%;
-  object-fit: cover;
 }
-
-.part2 {
-  width: 100%;
-  height: 90%;
-  display: flex;
-  flex-direction: row;
-}
-
-.part2 img {
-  cursor: pointer;
-  width: 33%;
-  height: 100%;
-  margin: 0.4%;
-  object-fit: cover;
-}
-
 .galeriapersonajes {
   width: 70%;
   height: 100%;
@@ -232,8 +204,8 @@ button {
 }
 
 .botones button:hover {
-  color: #1890ff;
-  border-bottom: solid 1px #1890ff;
+  color: #86a5d9;
+  border-bottom: solid 1px #86a5d9;
 }
 
 .contactoyredes {
@@ -246,21 +218,29 @@ button {
 }
 
 .contactoyredes a {
-  color: #1890ff;
+  color: #86a5d9;
   text-decoration: none;
   font-size: 17px;
 }
 
 .titulo {
-  color: #ffb23f;
-  font-size: 25px;
+  font-weight: bold;
+  color: #86a5d9;
+  font-size: 30px;
   text-transform: uppercase;
   margin-top: 10%;
+  /* margin-bottom: -5%; */
+}
+
+.subtitulo {
+  font-size: 15px;
+  margin-top: -1%;
+  margin-bottom: -5%;
 }
 
 .titulo,
 .subtitulo {
-  margin-left: 10%;
+  text-align: center;
 }
 
 .ilustraciones p {
@@ -512,7 +492,7 @@ h2 {
 }
 
 .name H1 {
-  color: #1890ff;
+  color: #86a5d9;
   font-weight: 900;
 }
 
@@ -621,7 +601,7 @@ h2 {
 }
 
 .a1 {
-  color: #1890ff;
+  color: #86a5d9;
   font-weight: bolder;
 }
 
@@ -646,7 +626,7 @@ h2 {
 .circle1 {
   top: 31%;
   left: 25%;
-  background: linear-gradient(100deg, #7900ac, #1890ff);
+  background: linear-gradient(100deg, #7900ac, #86a5d9);
 }
 
 .circle2 {
@@ -654,14 +634,14 @@ h2 {
   height: 200px;
   top: -5%;
   right: 0%;
-  background: linear-gradient(190deg, #7900ac, #1890ff);
+  background: linear-gradient(190deg, #7900ac, #86a5d9);
 }
 .circle3 {
   width: 150px;
   height: 150px;
   top: 60%;
   left: 60%;
-  background: linear-gradient(100deg, #7900ac, #1890ff);
+  background: linear-gradient(100deg, #7900ac, #86a5d9);
 }
 
 .circle4 {
@@ -669,5 +649,5 @@ h2 {
   height: 150px;
   top: 150%;
   left: 80%;
-  background: linear-gradient(100deg, #7900ac, #1890ff);
+  background: linear-gradient(100deg, #7900ac, #86a5d9);
 }
