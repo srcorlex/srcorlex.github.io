@@ -67,6 +67,8 @@ header {
 .description {
   width: 80%;
   font-weight: lighter;
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: bold; */
 }
 
 .container__down {

@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
     <!-- scrolltriger -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.0/ScrollTrigger.min.js"></script>
 
+    <!-- Gsap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+
+    <!-- Google fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat+2&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
-<!-- Photoswipe -->
-    
     <script src="https://kit.fontawesome.com/7dc389b0cb.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <script src="app.js"></script>
     <link rel="shortcut icon" href="imgs/logo personal 1.png" type="image/x-icon" class="a_icon">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
     <title>Corlex web</title>
 </head>
 <body id="body">
@@ -39,15 +47,19 @@
                             </div>
                             <!-- <a class="a" href="mailto:corlenclaude1@gmail.com">Contact</a> -->
             </div>
-            <div class="parteabajo">
+                <button class="bars" id="bars"><i class="fa fa-bars"></i></button>
+            <div id="sidebar" class="parteabajo">
+                <!-- <button class="x" id="x"><i class="fa fa-x"></i>hola</button> -->
                 <div class="botones">
-                    <button id="portfolio">Portfolio</button>
-                    <button id="dp">Design process</button>
+                <!-- <button class="x" id="x"><i class="fa fa-x"></i>hola</button> -->
                     <button id="biografia">About</button>
-                    <button id="comisiones">Commissions</button>
+                    <button id="portfolio">Portfolio</button>
+                    <!-- <button id="dp">Last projects</button> -->
+                    <!-- <button id="comisiones">Commissions</button> -->
                 </div>
                 <div class="contactoyredes">    
                     <a href="https://www.instagram.com/sr_corlex/" target="blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.behance.net/corlenmohamed" target="blank"><i class="fab fa-behance"></i></a>
                 </div>
             </div>
         </header>
@@ -79,22 +91,24 @@
                         <h3>WHAT I DO</h3>
                         <div class="skill__container">
                             <div class="ui">
+                                <img src="imgs/icono_ui.svg" class="ui_icon" alt="Corlex web ui icon">
                                 <p>UI/UX</p>
+                                <!-- <p>UI/UX</p>
                                 <p>UI/UX</p>
-                                <p>UI/UX</p>
-                                <p>UI/UX</p>
+                                <p>UI/UX</p> -->
                             </div>
-                            <div class="game__art">
+                            <!-- <div class="game__art">
                                 <p>Game Art</p>
                                 <p>Game Art</p>
                                 <p>Game Art</p>
                                 <p>Game Art</p>
-                            </div>
+                            </div> -->
                             <div class="Illustrations">
+                                <img src="imgs/icono_design .svg" class="ui_icon" alt="Corlex web ui icon">
                                 <p>Desing</p>
+                                <!-- <p>Desing</p>
                                 <p>Desing</p>
-                                <p>Desing</p>
-                                <p>Desing</p>
+                                <p>Desing</p> -->
                             </div>
                         </div>
                     </div>
@@ -129,15 +143,15 @@
                     <div class="galeriapersonajes">
                         <div class="part3">
 
-                        <img id="img" class="imagen" loading="lazy" src="imgs/Hello son sin ruido.jpg" style="height: 290px;" alt="Hello son" />
+                        <img id="img" class="imagen" loading="lazy" src="imgs/Hello son sin ruido.jpg" alt="Hello son" />
 
-                            <img id="img" class="imagen" loading="lazy" src="imgs/Hello father.jpg" style="height: 290px;" alt="Lost guy">
-                            <img id="img" class="imagen" loading="lazy" src="imgs/lost guy 2.jpg" style="height: 290px;" alt="Sirena">
+                            <img id="img" class="imagen" loading="lazy" src="imgs/Hello father.jpg" alt="Lost guy">
+                            <img id="img" class="imagen" loading="lazy" src="imgs/lost guy 2.jpg" alt="Sirena">
                         </div>
                         <div class="part4">
-                            <img id="img" class="imagen" loading="lazy" src="imgs/sirena terminado.jpg" style="height: 290px;" alt="dibujo chica cabello de nubes rosa">
-                            <img id="img" class="imagen" loading="lazy" src="imgs/ronaldo.jpg" style="height: 290px;" alt="dibujo satanas rojo guapo">
-                            <img id="img" class="imagen" loading="lazy" src="imgs/ronaldo, el simp.jpg" style="height: 290px;" alt="dibujo de estatua">
+                            <img id="img" class="imagen" loading="lazy" src="imgs/sirena terminado.jpg" alt="dibujo chica cabello de nubes rosa">
+                            <img id="img" class="imagen" loading="lazy" src="imgs/ronaldo.jpg" alt="dibujo satanas rojo guapo">
+                            <img id="img" class="imagen" loading="lazy" src="imgs/ronaldo, el simp.jpg" alt="dibujo de estatua">
                         </div>
                     </div>
 

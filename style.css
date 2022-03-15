@@ -79,13 +79,13 @@ button {
 .galeriapersonajes img {
   transition: all 0.5s;
   /* animation: 0.5s; */
-  height: 290px;
+  height: 50%;
 }
 
-.galeriapersonajes img:hover {
+/* .galeriapersonajes img:hover {
   transform: scale(2);
   width: auto;
-}
+} */
 
 .part3 {
   width: 100%;
@@ -196,7 +196,7 @@ button {
 }
 
 .botones {
-  width: 100%;
+  width: 30%;
   display: flex;
   justify-content: space-between;
   transition: all 1s;
@@ -212,9 +212,9 @@ button {
 }
 
 .contactoyredes {
-  width: 22%;
+  width: 15%;
   height: 100%;
-  display: block;
+  display: fLEX;
   flex-direction: row;
   justify-content: space-between;
   margin-left: 5%;
@@ -549,7 +549,7 @@ h2 {
 }
 
 .skill__container {
-  width: 90%;
+  width: 60%;
   justify-content: space-between;
   display: flex;
   flex-direction: row;
@@ -557,7 +557,7 @@ h2 {
 
 .skill__container div {
   width: 100px;
-  height: 50px;
+  height: 100px;
   border-radius: 5px;
   background: linear-gradient(
     145deg,
@@ -573,6 +573,7 @@ h2 {
   border-image-slice: 1; */
   display: flex;
   justify-content: center;
+  flex-direction: column;
   align-items: center;
   text-transform: uppercase;
   font-size: 15px;
@@ -589,7 +590,7 @@ h2 {
   background: linear-gradient(165deg, #fff, rgb(24, 144, 255, 0.5));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .title__cont {
@@ -653,4 +654,281 @@ h2 {
   top: 150%;
   left: 80%;
   background: linear-gradient(100deg, #7900ac, #86a5d9);
+}
+
+.ui {
+  display: flex;
+  justify-content: column;
+}
+
+.ui_icon {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+}
+
+.bars {
+  display: none;
+}
+
+@media only screen and (max-width: 450px) {
+  body {
+    transition: all 1s;
+  }
+
+  .header {
+    background: rgb(0, 0, 0, 0);
+  }
+
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .parteabajo {
+    z-index: 1;
+    width: 75%;
+    height: 250vh;
+    background: rgb(0, 0, 0, 0.8);
+    position: absolute;
+    margin: -12%;
+    margin-left: 100%;
+    display: none;
+    flex-direction: column;
+    transition: all 0.5s;
+  }
+
+  .botones {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30%;
+  }
+
+  .bars {
+    position: absolute;
+    display: block;
+    margin: -2% 0% 0% 85%;
+    z-index: 1;
+    font-size: 20px;
+    transition: all 0.5s;
+  }
+
+  .landingContainer {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .leftpart {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .nameTagline {
+    display: flex;
+    justify-content: row;
+  }
+
+  .name {
+    width: 63%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-transform: uppercase;
+  }
+
+  .name H1,
+  h2 {
+    font-size: 35px;
+    width: 45%;
+    line-height: 150%;
+  }
+
+  .name H1 {
+    color: #86a5d9;
+    font-weight: bolder;
+  }
+
+  .name h2 {
+    font-weight: lighter;
+  }
+
+  .tagline {
+    margin: 15% 0% 0% -28%;
+  }
+
+  .tagline p {
+    font-size: 15px;
+    color: #fff;
+  }
+
+  .contact__button {
+    display: flex;
+    width: 90%;
+    height: 50px;
+    background: rgb(0, 0, 0, 0);
+    border: solid 1px #ffb23f;
+    border-radius: 5px;
+    color: #ffb23f;
+    text-decoration: none;
+    font-size: 12.5px;
+    justify-content: center;
+    align-items: center;
+    margin: 28% 0%;
+  }
+
+  .skills {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 35% 0%;
+  }
+
+  .skills h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .skill__container {
+    margin: 1% 0%;
+    width: 100%;
+    /* position: absolute; */
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .skill__container div {
+    width: 50%;
+    height: 100px;
+    background: linear-gradient(
+      145deg,
+      rgba(255, 255, 255, 0.1),
+      rgba(255, 255, 255, 0)
+    );
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: lighter;
+    filter: drop-shadow(0px 4px 25px rgb(0, 0, 0, 0.2));
+  }
+
+  .rightpart {
+    position: absolute;
+    margin: 26% 0% 0% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 80%;
+    height: 45vh;
+  }
+
+  .resume {
+    width: 100%;
+    display: flex;
+    /* justify-content: flex-end; */
+  }
+
+  .resume p {
+    width: 100%;
+    line-height: 25px;
+    font-size: 13px;
+    font-weight: lighter;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .title__cont {
+    width: 3%;
+    display: flex;
+    margin: 5% 10%;
+  }
+
+  .title__cont p {
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+  .portfolio {
+    margin: 70% 0% 0% 0%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .titulo {
+    font-size: 20px;
+  }
+
+  .subtitulo {
+    font-size: 12px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .chantale__cont {
+    margin: 10% 0%;
+    width: 40%;
+  }
+
+  .galeriapersonajes {
+    width: 100%;
+    height: 30%;
+  }
+
+  .galeriapersonajes img {
+    height: 30%;
+  }
+
+  .part3 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .part3 img {
+    cursor: pointer;
+    width: 33%;
+    height: 50%;
+    margin: 0;
+    object-fit: cover;
+  }
+
+  .part4 {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .part4 img {
+    cursor: pointer;
+    width: 33%;
+    height: 100%;
+    margin: 0;
+    object-fit: cover;
+  }
+
+  .copyright p {
+    font-size: 10px;
+  }
+
+  .contactoyredes {
+    width: 20%;
+    height: 100%;
+    display: fLEX;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 5%;
+  }
 }

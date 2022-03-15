@@ -1,5 +1,23 @@
 window.onload = function () {
 
+    let sidebar = document.getElementById("sidebar");
+        
+    let bars = document.getElementById("bars").addEventListener("click", function () {
+
+        //         if (sidebar.style.display == "none"
+        //         ) {
+        //             sidebar.style.display = "flex";
+        //             sidebar.style.marginLeft = "40%";
+        //         } else {
+        //             sidebar.style.display = "none";
+        // }
+        
+    gsap.to('#sidebar', { duration: 0.2, x: -225, ease: 'expo.out', yoyo: true});
+        sidebar.style.display = "flex";
+        
+        // sidebar.style.marginLeft = "40%";
+    });
+
     let port = document.getElementById('portfolio');
     port.addEventListener('click', function () {
             window.scroll({
@@ -100,10 +118,10 @@ window.onload = function () {
     gsap.from('.leftpart', { opacity: 0, duration: 2.5, x: -150, ease: 'expo.out', delay: 1});
     gsap.from('.header', { opacity: 0, duration: 2.5, y: -150, ease: 'expo.out'});
     gsap.from('.rightpart', { opacity: 0, duration: 2, x: 50, delay: 1 });
-    gsap.to('.circle2', { duration: 90, y: 800, repeat: 10, yoyo: true});
-    gsap.to('.circle1', { duration: 90, y: 500, x: 800, delay: 1, repeat: 10, yoyo: true});
-    gsap.to('.circle3', { duration: 90, y: -400, x: -800, repeat: 10, yoyo: true});
-    gsap.to('.circle4', { duration: 90, y: -300, x: -900, repeat: 10, yoyo: true });
+    gsap.to('.circle2', { duration: 10, y: 800, repeat: 10, yoyo: true});
+    gsap.to('.circle1', { duration: 10, y: 500, x: 800, delay: 1, repeat: 10, yoyo: true});
+    gsap.to('.circle3', { duration: 10, y: -400, x: -800, repeat: 10, yoyo: true});
+    gsap.to('.circle4', { duration: 10, y: -300, x: -900, repeat: 10, yoyo: true });
     gsap.from('.chantale__cont', {
         scrollTrigger: '.chantale__cont', opacity: 0, duration: 1, x: 50
     });
